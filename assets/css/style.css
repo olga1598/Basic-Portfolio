@@ -1,0 +1,110 @@
+
+body {
+    width: 960px;
+    background-color:grey;
+    margin: auto;
+
+}
+.backsplash {
+    background-image: url("../images/gravel.png");
+    position: relative;
+    width: 960px;
+    height: 700px;
+}
+
+span {
+    color: grey;
+}
+
+.main {
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    padding-left: 30px;
+    z-index: 3;
+    width: 600px;
+    height: 510px;
+    margin-top: 75px;
+    margin-left: 150px;
+    border: 3px solid #dddddd;
+    box-shadow: 10px 10px 10px grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main #profpic {
+    float: left;
+    width: 150px;
+    padding-right: 20px;
+}
+
+.main p {
+    line-height: 2.0;
+    padding-right: 15px;
+    
+}
+
+p.clear {
+    clear: both;
+    line-height: 2.0;
+    overflow: auto;
+}
+.zag {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 12;
+    width: 960px;
+    border: 10px;
+    border-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+header {
+    background-color: #4aaaa5;
+    float: left;
+    padding: 10px;
+    font: #777777;
+    margin-left: 150px;
+    
+    
+}
+nav {
+    float: right;
+    padding-right: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+
+#aboutbotton {
+    padding-right: 20px;
+}
+
+#portfoliobotton {
+    padding-right: 20px;
+}
+
+#contactbotton {
+    padding-right: 160px;
+}
+
+footer {
+    background-color:#666666;
+    width: 960px;
+    height: 70px;
+    position: fixed;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 8px;
+    
+}
+.rectangle {
+    height: 5px;
+    width: 960px;
+    background-color:teal;
+  }
